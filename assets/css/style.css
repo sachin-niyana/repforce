@@ -1,0 +1,721 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box !important;
+}
+
+.my-container {
+    max-width: 1216px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.nav-line::after {
+    content: '';
+    width: 0%;
+    left: 50%;
+    height: 2px;
+    background-color: #007aff;
+    bottom: -4px !important;
+    position: absolute;
+    margin-top: 5px;
+    transition: all 300ms ease-in-out;
+}
+
+.nav-line:hover::after {
+    left: 0;
+    width: 100%;
+    margin-top: -20px !important;
+    color: #00EAC7;
+}
+
+.tag-color {
+    color: #202020;
+}
+
+.tag-color:hover {
+    color: #007aff;
+}
+
+.bg-color-1 {
+    background: #ffffff;
+}
+
+.bg-color-2 {
+    background: #f1f7ff;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.my_30 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mt_30 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.logo-border {
+    border: 1.5px solid #c0c4ca;
+    padding: 20px 0px;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.li-color {
+    color: #475467;
+}
+
+.gray-color {
+    color: #475467;
+}
+
+.success-color {
+    color: #007aff;
+}
+
+.line-1 {
+    background-color: #c0c4ca;
+    height: 1.5px;
+    width: 100%;
+}
+
+.line-2 {
+    background-color: #c8ccd1;
+    height: 17px;
+    width: 1.7px;
+}
+
+.card-1 {
+    max-height: 610px;
+    max-width: 515px;
+    border-radius: 15px;
+    margin-top: 16px;
+}
+
+.card-2 {
+    color: white;
+    padding: 30px;
+    background: #00000099;
+    max-height: 171px;
+    width: 100%;
+    position: absolute;
+    bottom: -40%;
+    cursor: pointer;
+    transition: 800ms;
+}
+
+.card-1:hover {
+    box-shadow: 0px 0px 15px #007bff !important;
+}
+
+.card-1:hover .card-2 {
+    bottom: 5%;
+}
+
+.card-3 {
+    max-width: 320px;
+    max-height: 390px;
+    border-radius: 15px;
+    margin-top: 16px;
+}
+
+.card-4 {
+    color: white;
+    padding: 15px;
+    background: #00000099;
+    max-height: 121px;
+    width: 100%;
+    position: absolute;
+    bottom: -60%;
+    cursor: pointer;
+    transition: 800ms;
+}
+
+.card-3:hover {
+    box-shadow: 0px 0px 15px #007bff !important;
+}
+
+.card-3:hover .card-4 {
+    bottom: 5%;
+}
+
+.max-w-520 {
+    max-width: 520px;
+}
+
+.learning {
+    max-width: 515px;
+    max-height: 600px;
+}
+
+.task {
+    max-width: 320px;
+    max-height: 390px;
+}
+
+.task-2 {
+    max-width: 320px;
+    max-height: 390px;
+    border-radius: 24px;
+    margin-top: 16px;
+}
+
+.zoom-in {
+    max-width: 320px;
+    max-height: 390px;
+    transition: all 300ms linear;
+}
+
+.zoom-in:hover {
+    transform: scale(1.2);
+}
+
+.laptop {
+    max-width: 572px;
+    max-height: 287px;
+    border-radius: 24px;
+    margin-top: 16px;
+}
+
+.laptop-2 {
+    max-width: 572px;
+    max-height: 287px;
+    transition: all 300ms linear;
+}
+
+.laptop-2:hover {
+    transform: scale(1.2);
+}
+
+.btn-1 {
+    padding: 2px 10px !important;
+    border: 1.5px solid #ffaa2e !important;
+    border-radius: 16px !important;
+    background-color: transparent !important;
+    color: #ffaa2e !important;
+}
+
+.btn-2 {
+    padding: 2px 10px !important;
+    border: 1.5px solid #ff713e !important;
+    border-radius: 16px !important;
+    background-color: transparent !important;
+    color: #ff713e !important;
+}
+
+.btn-3 {
+    padding: 2px 10px !important;
+    border: 1.5px solid #007aff !important;
+    border-radius: 16px !important;
+    background-color: transparent !important;
+    color: #007aff !important;
+}
+
+.card-5 {
+    padding: 32px;
+    max-width: 384px;
+    max-height: 367px;
+    border-radius: 15px;
+    border-bottom: 8px solid var(--colours-secondary-cyan, #00A7FB);
+    background: var(--copy-white, #FFF);
+    box-shadow: 0px 4px 6px -2px rgba(16, 24, 40, 0.03), 0px 12px 16px -4px rgba(16, 24, 40, 0.08);
+}
+
+.card-5:hover {
+    box-shadow: 0px 0px 15px #00A7FB;
+}
+
+.card-6 {
+    padding: 32px;
+    max-width: 384px;
+    max-height: 367px;
+    border-radius: 15px;
+    border-bottom: 8px solid var(--colours-secondary-teal, #00CDB4);
+    background: var(--copy-white, #FFF);
+    box-shadow: 0px 4px 6px -2px rgba(16, 24, 40, 0.03), 0px 12px 16px -4px rgba(16, 24, 40, 0.08);
+}
+
+.card-6:hover {
+    box-shadow: 0px 0px 15px #00CDB4;
+}
+
+.card-7 {
+    padding: 32px;
+    max-width: 384px;
+    max-height: 367px;
+    border-radius: 15px;
+    border-bottom: 8px solid var(--colours-secondary-orange, #FF713E);
+    background: var(--copy-white, #FFF);
+    box-shadow: 0px 4px 6px -2px rgba(16, 24, 40, 0.03), 0px 12px 16px -4px rgba(16, 24, 40, 0.08);
+}
+
+.card-7:hover {
+    box-shadow: 0px 0px 15px #FF713E;
+}
+
+.men-img-1 {
+    width: 70px;
+    height: 70px;
+}
+
+.bg-img {
+    background-image: url('../image/webp/bg-img.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.icon-card-1 {
+    max-width: 300px;
+    background-color: #ffffff;
+    max-height: 110px;
+    border: #007aff solid 2px;
+    border-radius: 15px;
+    padding: 15px;
+    transition: all 300ms linear;
+}
+
+.icon-card-1:hover {
+    box-shadow: 0px 0px 15px #007aff;
+    transform: scale(1.02);
+}
+
+.icon-card-2 {
+    max-width: 300px;
+    background-color: #ffffff;
+    max-height: 110px;
+    border: #ffaa2e solid 2px;
+    border-radius: 15px;
+    padding: 15px;
+    transition: all 300ms linear;
+}
+
+.icon-card-2:hover {
+    box-shadow: 0px 0px 15px #ffaa2e;
+    transform: scale(1.02);
+}
+
+.icon-card-3 {
+    max-width: 300px;
+    background-color: #ffffff;
+    max-height: 110px;
+    border: #ff713e solid 2px;
+    border-radius: 15px;
+    padding: 15px;
+    transition: all 300ms linear;
+}
+
+.icon-card-3:hover {
+    box-shadow: 0px 0px 15px #ff713e;
+    transform: scale(1.02);
+}
+
+.icon-card-4 {
+    max-width: 300px;
+    background-color: #ffffff;
+    max-height: 110px;
+    border: #0a3265 solid 2px;
+    border-radius: 15px;
+    padding: 15px;
+    transition: all 300ms linear;
+}
+
+.icon-card-4:hover {
+    box-shadow: 0px 0px 15px #0a3265;
+    transform: scale(1.02);
+}
+
+.icon-card-5 {
+    max-width: 300px;
+    background-color: #ffffff;
+    max-height: 110px;
+    border: #5b67ef solid 2px;
+    border-radius: 15px;
+    padding: 15px;
+    transition: all 300ms linear;
+}
+
+.icon-card-5:hover {
+    box-shadow: 0px 0px 15px #5b67ef;
+    transform: scale(1.02);
+}
+
+.icon-card-6 {
+    max-width: 300px;
+    background-color: #ffffff;
+    max-height: 110px;
+    border: #00cdb4 solid 2px;
+    border-radius: 15px;
+    padding: 15px;
+    transition: all 300ms linear;
+}
+
+.icon-card-6:hover {
+    box-shadow: 0px 0px 15px #00cdb4;
+    transform: scale(1.02);
+}
+
+.icon-card-7 {
+    max-width: 300px;
+    background-color: #ffffff;
+    max-height: 110px;
+    border: #00a7fb solid 2px;
+    border-radius: 15px;
+    padding: 15px;
+    transition: all 300ms linear;
+}
+
+.icon-card-7:hover {
+    box-shadow: 0px 0px 15px #00a7fb;
+    transform: scale(1.02);
+}
+
+.icon-card-8 {
+    max-width: 300px;
+    background-color: #ffffff;
+    max-height: 110px;
+    border: #ff0879 solid 2px;
+    border-radius: 15px;
+    padding: 15px;
+    transition: all 300ms linear;
+}
+
+.icon-card-8:hover {
+    box-shadow: 0px 0px 15px #ff0879;
+    transform: scale(1.02);
+}
+
+.iphone {
+    max-height: 600px;
+}
+
+.btn_1 {
+    padding: 10px 18px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    background-color: #007aff;
+}
+
+.btn_1:hover {
+    padding: 10px 18px;
+    border-radius: 8px;
+    color: #007aff;
+    border: none;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 12px #007aff;
+}
+
+.btn_2 {
+    padding: 10px 18px;
+    border-radius: 8px;
+    color: #007aff;
+    border: 2px solid #007aff;
+    background-color: #ffffff;
+}
+
+.btn_2:hover {
+    box-shadow: 0px 0px 12px #007aff;
+}
+
+.circle-card {
+    background-color: #ff0879;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 8px solid white;
+    position: absolute;
+    top: -10px;
+    left: 0px;
+}
+
+.circle-card:hover {
+    background-color: #ffffff;
+    border: 8px solid #ff0879;
+}
+
+.circle-card-2 {
+    background-color: #505d68;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 8px solid white;
+    position: absolute;
+    top: -10px;
+    right: 20px;
+}
+
+.circle-card-2:hover {
+    background-color: #ffffff;
+    border: 8px solid #505d68;
+}
+
+.women {
+    width: 92px;
+    height: 92px;
+}
+
+.women-2 {
+    width: 54px;
+    height: 54px;
+}
+
+.car {
+    position: absolute;
+    bottom: -30px;
+    left: 18px;
+}
+
+.library {
+    position: absolute;
+    bottom: 2px;
+    left: 50px;
+}
+
+.dashboard {
+    position: absolute;
+    top: 142px;
+    left: 32px;
+}
+
+.rupese {
+    position: absolute;
+    bottom: 80px;
+    left: -45px;
+}
+
+.jenson {
+    position: absolute;
+    bottom: -36px;
+    right: -72px;
+}
+
+.pick {
+    position: absolute;
+    bottom: -70px;
+    right: 2px;
+}
+
+.left-circle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.right-circle {
+    position: absolute;
+    bottom: 20%;
+    right: 0;
+}
+
+.finger {
+    position: absolute;
+    top: 0%;
+    right: 0;
+}
+
+.waire {
+    position: absolute;
+    top: 0%;
+    right: 0;
+}
+
+.gradient {
+    background-image: linear-gradient(14deg, #FFF 21.38%, #E8F1FF 99.15%);
+}
+
+/* {{{back to top}}} */
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    z-index: 1;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+
+#back-to-top:hover {
+    background-color: #ff713e;
+}
+
+/* {{{preloder}}} */
+.preloader-box {
+    min-height: 100vh;
+    width: 100%;
+    top: 0;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: #eaf3ff;
+    position: fixed;
+    z-index: 100;
+
+}
+
+.loder-img {
+    animation: scroll 3000ms linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: scale(0.8);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.8);
+    }
+}
+
+@media (max-width:992px) {
+    label[for="menuIcon"] {
+        cursor: pointer;
+        width: 35px;
+        height: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    label[for="menuIcon"]>span {
+        width: 100%;
+        height: 3px;
+        background-color: black;
+    }
+
+    .sm-screen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        background-color: #EBF3FF;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        opacity: 0;
+        pointer-events: none;
+        transition: all 200ms linear;
+    }
+
+    input[type="checkbox"]:checked+ul.sm-screen {
+        opacity: 1;
+        pointer-events: all;
+        left: 0;
+    }
+
+    .iphone {
+        max-height: 500px;
+    }
+
+    .bg-img {
+        background-image: none;
+    }
+
+    .circle-card {
+        background-color: #ff0879;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 8px solid white;
+        position: absolute;
+        top: -10px;
+        left: 70px;
+    }
+
+    .library {
+        position: absolute;
+        bottom: 2px;
+        left: 100px;
+    }
+
+    .rupese {
+        position: absolute;
+        bottom: 80px;
+        left: 15px;
+    }
+
+    .pick {
+        position: absolute;
+        bottom: -70px;
+        right: 20px;
+    }
+
+    .circle-card-2 {
+        background-color: #505d68;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border: 8px solid white;
+        position: absolute;
+        top: -10px;
+        right: 113px;
+    }
+
+    .car {
+        position: absolute;
+        bottom: -30px;
+        left: 100px;
+    }
+
+    .dashboard {
+        position: absolute;
+        top: 142px;
+        left: 100px;
+    }
+
+    .jenson {
+        position: absolute;
+        bottom: -36px;
+        right: 21px;
+    }
+}
+
+@media (max-width:768px) {
+    .circle-card-2 {
+        background-color: #505d68;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border: 8px solid white;
+        position: absolute;
+        top: -10px;
+        right: 33%;
+    }
+
+    .car {
+        position: absolute;
+        bottom: -30px;
+        left: 30%;
+    }
+
+    .dashboard {
+        position: absolute;
+        top: 142px;
+        left: 30%;
+    }
+
+    .jenson {
+        position: absolute;
+        bottom: -36px;
+        right: 17%;
+    }
+}
